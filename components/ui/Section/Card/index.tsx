@@ -1,7 +1,7 @@
 import { FC, Fragment } from "react";
 
 interface CardProps {
-  data: CardData;
+  data?: CardData;
   type: string;
 }
 interface CardData {
